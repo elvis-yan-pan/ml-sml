@@ -2,12 +2,13 @@ signature NB =
 sig
   structure Seq : SEQUENCE
 
-  type nb
   type 'a seq = 'a Seq.t
+  datatype feature = Disc of int | Cont
+  type nb
 
   exception Range
 
-  val fit : int seq seq -> int seq seq -> int seq -> nb
+  val fit : feature seq * int -> int seq seq -> int seq -> nb
   val predict : nb -> int seq -> int seq
   val test : nb -> int seq -> int seq -> real seq * real
   val prior : nb -> real seq
