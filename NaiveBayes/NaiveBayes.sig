@@ -11,7 +11,7 @@ sig
   val fit : feature seq * int -> int seq seq -> int seq -> nb
   val predict : nb -> int seq -> int seq
   val test : nb -> int seq -> int seq -> real seq * real
-  val prior : nb -> real seq
-  val param : nb -> int -> int -> int -> real
+  val getPrior : nb -> real seq
+  val getParam : nb -> int -> int -> int -> real
 
 end
