@@ -1,0 +1,2 @@
+Skeleton 5
+d2f8ä¢List"d"Int"d"Time"Cd"Math"d"TimeLimit"d"String"d"Real"d"IntInf"Nad"TestSuite"h6ad"Result"è0Cad"Checker"ÿad"Logger"ÿad"Tester"ÿad"Grader"ÿad"Util"h4ad"Option"ÿad"Pair"ÿad"Triple"ÿaÿÿN
